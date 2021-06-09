@@ -6,5 +6,9 @@ The pipeline includes:
 - **Transform** stage: I use **pandas** to process and transform data to expected format, and query only necessary columns
 - **Load** stage: Here, I use **MySQL** database to store my processed data
 
+**How can I improve this?**
+
+I will deploy a ETL pipeline on GCP, basing on Dataflow and Big Query. That will automate lots of stuffs, and sound more interesting
+
 Have a nice day! :smile:
 
