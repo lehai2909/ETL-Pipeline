@@ -8,8 +8,7 @@ df = process_log()
 
 def establish_connection():
 	cnx = mysql.connector.connect(user='lehai', password='iambawmim',
-                              host='localhost',
-                              database='spark')
+                              host='localhost')
 
 	cursor = cnx.cursor()
 
