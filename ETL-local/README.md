@@ -1,5 +1,4 @@
-## Welcome to my Github.io
-This is the repository for my little project: **ETL Pipeline**
+## Build ETL pipeline locally
 
 The pipeline includes:
 - **Extract** stage: I extract data logs from my app server. This can be done easily with **Google Logs Explorer** tool when deploying on Google Kubernetes Engine. For simplicity, I will store them in the '/logs' folder
