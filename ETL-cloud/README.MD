@@ -43,8 +43,14 @@ To execute the pipeline, use the following command:
 
 ```python dataflow_python_examples/data_transformation.py --project=$PROJECT --region=us-central1 --runner=DataflowRunner --staging_location=gs://linux-etl/test --temp_location gs://linux-etl/test --input gs://linux-etl/data_files/head_usa_names.csv --save_main_session```
 
-To check status of the job, On Google Cloud Console, we can navigate to Dataflow (Navigation Menu -> Dataflow). Here, we can see all job and their status
+To check status of the job, On Google Cloud Console, we can navigate to Dataflow (Navigation Menu -> Dataflow). Here, we can see all job and their status:
 
-When our job's status is **Succeeded**, we can navigate BigQuery to see th result table
+![jobs](./img/dataflow_job.PNG)
+
+## Check the result
+
+When our job's status is **Succeeded**, we can navigate BigQuery to see the result table:
+
+![result](./img/bigquery_result.PNG)
 
 
