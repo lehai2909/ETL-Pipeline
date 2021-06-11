@@ -10,5 +10,4 @@ The pipeline includes:
 
 I will deploy a ETL pipeline on GCP, basing on Dataflow and Big Query. That will automate lots of stuffs, and sound more interesting
 
-Have a nice day! :smile:
 
