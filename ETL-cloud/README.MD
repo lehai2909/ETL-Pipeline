@@ -21,7 +21,7 @@ Storage Bucket is where we save all data for processing later. All data is saved
 
 Here, we create a bucket name `linux-etl`
 
-![bucket](./img/bucket.png)
+![bucket](./img/bucket.PNG)
 
 For convenient, we will export project name to `PROJECT` variable:
 
